@@ -34,10 +34,5 @@ jobs:
         run: |
           echo "Add other actions to build," > pikem.txt
           echo "test, and deploy your project." >> pikem.txt
-
           
       - uses: actions/download-artifact@v5
-        with:
-          name: my-artifact
-        - name: Display structure of downloaded files
-          run: ls -R
