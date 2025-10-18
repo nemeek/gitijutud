@@ -5,8 +5,8 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  # push:
-    # branches: [ "main" ]
+  push:
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -29,6 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello, world!" > hello.txt
 
+      # Runs grep on README
+      # - name: Run grep on README
+      #  run: cat README.md | grep 'Git' > gititulem.txt
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
@@ -44,6 +48,7 @@ jobs:
           echo 'alpha'    > alpha.html
           echo 'bravo'    > bravo.html
           echo 'charlie'  > charlie.html
+          cat ../README.md | grep 'Git' > gititulem.txt
           cd ..
     
       - name: Step 3 - Use the Upload Artifact GitHub Action
