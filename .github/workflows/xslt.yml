@@ -41,6 +41,7 @@ jobs:
           
       - name: Step 1 - Create a temporary artifact downloads folder
         run: mkdir downloads
+        run: apt-get install xsltproc
 
       - name: Step 2 - Test xsltproc
         run: xsltproc
@@ -48,9 +49,9 @@ jobs:
       - name: Step 3 - Add artifacts to publish to the temp folder
         run: |
           cd downloads
-          echo 'alpha'    > alpha.html
-          echo 'bravo'    > bravo.html
-          echo 'charlie'  > charlie.html
+          # echo 'alpha'    > alpha.html
+          # echo 'bravo'    > bravo.html
+          # echo 'charlie'  > charlie.html
           cat ../README.md | grep 'Git' > gititulem.txt
           cd ..
     
