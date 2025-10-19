@@ -50,7 +50,7 @@ jobs:
         run: |
           pwd
           ls -l
-          xsltproc nimed.xls > nimetulem.xml
+          xsltproc nimed.xsl > nimetulem.xml
         
       - name: Step 3 - Add artifacts to publish to the temp folder
         run: |
