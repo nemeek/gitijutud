@@ -47,7 +47,10 @@ jobs:
 
 
       - name: Step 2 - Test xsltproc
-        run: xsltproc nimed.xls > nimetulem.xml
+        run: |
+          pwd
+          ls -l
+          xsltproc nimed.xls > nimetulem.xml
         
       - name: Step 3 - Add artifacts to publish to the temp folder
         run: |
