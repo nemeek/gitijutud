@@ -60,6 +60,7 @@ jobs:
           # echo 'bravo'    > bravo.html
           # echo 'charlie'  > charlie.html
           cat ../README.md | grep 'Git' > gititulem.txt
+          ls -l
           cd ..
     
       - name: Step 4 - Use the Upload Artifact GitHub Action
