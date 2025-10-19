@@ -39,8 +39,8 @@ jobs:
       #     echo "Add other actions to build," > pikem.txt
       #     echo "test, and deploy your project." >> pikem.txt
 
-      -name: Prepare
-      run: apt-get install xsltproc
+      - name: Prepare
+        run: apt-get install xsltproc
           
       - name: Step 1 - Create a temporary artifact downloads folder
         run: mkdir downloads
