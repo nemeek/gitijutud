@@ -47,7 +47,7 @@ jobs:
 
 
       - name: Step 2 - Test xsltproc
-        run: xsltproc
+        run: xsltproc --version
         
       - name: Step 3 - Add artifacts to publish to the temp folder
         run: |
