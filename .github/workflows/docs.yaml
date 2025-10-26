@@ -18,6 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           # pip install -e .
+          sudo apt install graphviz 
           pip install sphinx furo
       - name: Sphinx build
         run: |

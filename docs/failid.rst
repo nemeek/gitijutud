@@ -1,5 +1,5 @@
-Sissejuhatus
-============
+Kus mu failid on?
+==================
 
 Gitil on 4 "tsooni" kus asuvad falid erinevatel etappidel.
 
