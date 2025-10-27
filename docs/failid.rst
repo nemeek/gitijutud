@@ -3,6 +3,17 @@ Kus mu failid on?
 
 Gitil on 4 "tsooni" kus asuvad falid erinevatel etappidel.
 
+Giti enda tööks ei ole vaja kaugrepositooriumit, töötab ka kohalikus arvutis.
+Kohalikus arvutis võivad failid olla kolmes erinevas staadiumis:
+
+kohalik töökaust (*local working directory*)
+	siin toimub kogu arendustegevus, kaustas võib olla ka faile, mis gitti ei lähe.
+
+lava (*stage*)
+	siin on failid valmis liikuma edasi repositooriumi. Lava võib käsitleda ka kohana, kust on võimalik saada kätte 
+	failide varasemat seisu.
+   
+
 .. graphviz::
    
    digraph git {
