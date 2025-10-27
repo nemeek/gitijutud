@@ -8,11 +8,11 @@ Kohalikus arvutis võivad failid olla kolmes erinevas staadiumis:
 
 **kohalik töökaust** (*local working directory*)
 	siin toimub kogu arendustegevus, kaustas võib olla ka faile, mis gitti ei lähe. Seda võib pidada Giti suhtes ka
-	"nulltasemeks". Failid lisatakse lavale käsuga ˋˋgit add <failinimi>ˋˋ.
+	"nulltasemeks". Failid lisatakse lavale käsuga ``git add <failinimi>``.
 
 **lava** (*stage*)
 	siin on failid valmis liikuma edasi repositooriumi. Lava võib käsitleda ka kohana, kust on võimalik saada kätte 
-	failide varasemat seisu. Failid lisatakse kohalikku repositooriumisse käsuga ``git commit -m 'kommentaar'``.
+	failide varasemat seisu (hetketõmmiseid). Failid lisatakse kohalikku repositooriumisse käsuga ``git commit -m 'kommentaar'``.
 
 **kohalik repo** (*local repository*)
        siin on failid kohalikus repositooriumis, valmis saatmiseks teistele kasutajatele. Kaugesse repositooriumi saadetakse failid käsuga ``git push``.
