@@ -6,10 +6,11 @@ Gitil on 4 "tsooni" kus asuvad falid erinevatel etappidel.
 Giti enda tööks ei ole vaja kaugrepositooriumit, töötab ka kohalikus arvutis.
 Kohalikus arvutis võivad failid olla kolmes erinevas staadiumis:
 
-kohalik töökaust (*local working directory*)
-	siin toimub kogu arendustegevus, kaustas võib olla ka faile, mis gitti ei lähe.
+**kohalik töökaust** (*local working directory*)
+	siin toimub kogu arendustegevus, kaustas võib olla ka faile, mis gitti ei lähe. Seda võib pidada Giti suhtes ka
+	"nulltasemeks". Failid lisatakse lavale käsuga ˋˋgit addˋˋ.
 
-lava (*stage*)
+**lava** (*stage*)
 	siin on failid valmis liikuma edasi repositooriumi. Lava võib käsitleda ka kohana, kust on võimalik saada kätte 
 	failide varasemat seisu.
    
@@ -37,6 +38,4 @@ lava (*stage*)
       "kohalik repo" -> "kohalik töökaust" [label="git checkout"];
    }
 
-Kuidas on?
-
-   
+  
