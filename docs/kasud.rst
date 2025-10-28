@@ -12,3 +12,14 @@ GITi käsud
 
 ``git push``
     Viib kohaliku salve muutused serveri salve.
+
+``git merge``
+    Mestib failid.
+
+``git branch``
+    Näitab harusid.
+
+``git status``
+    Näitab, milline on aktuaalne haru.
+
+    Näitab, kas aktuaalne haru on aktuaalne (?)
