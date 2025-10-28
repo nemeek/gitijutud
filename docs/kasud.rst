@@ -22,4 +22,4 @@ GITi käsud
 ``git status``
     Näitab, milline on aktuaalne haru.
 
-    Näitab, kas aktuaalne haru on aktuaalne (?)
+    Näitab, kas aktuaalne haru on ajakohane (*up-to-date*).
