@@ -14,6 +14,7 @@ Gitijutud
   sissejuhatus
   failid
   kasud
+  mestimine
   lisa
 
 
