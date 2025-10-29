@@ -29,3 +29,8 @@ Käsud
     Näitab, milliste failide muutused ei ole lavale viidud (*staged*).
 
     Näitab, millised failid ei ole giti tegevusse hõlmatud (*untracked*).
+
+``git log``
+   Näitab, mis tegevused on varamus toimunud.
+   
+   
