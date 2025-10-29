@@ -1,4 +1,4 @@
-GITi käsud
+Käsud
 ==========
 
 ``git init``
@@ -13,13 +13,19 @@ GITi käsud
 ``git push``
     Viib kohaliku salve muutused serveri salve.
 
+``git branch``
+    Näitab harusid.
+    
+    
 ``git merge``
     Mestib failid.
 
-``git branch``
-    Näitab harusid.
 
 ``git status``
     Näitab, milline on aktuaalne haru.
 
     Näitab, kas aktuaalne haru on ajakohane (*up-to-date*).
+
+    Näitab, milliste failide muutused ei ole lavale viidud (*staged*).
+
+    Näitab, millised failid ei ole giti tegevusse hõlmatud (*untracked*).
