@@ -12,10 +12,12 @@ Gitijutud
   :caption: Sisukord:
 
   sissejuhatus
+  algus
   failid
   kasud
   harud
   mestimine
+  kahveldamine
   lisa
 
 
