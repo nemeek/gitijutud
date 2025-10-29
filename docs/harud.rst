@@ -1,10 +1,5 @@
-Giti harud (branches)
-=====================
-
-.. topic:: Käsurida
-
-	   ``git branch``
-	   
+Harud
+=====
 
 Uue giti varamu loomisel luuakse üks haru, vaikimisi nimega *main*.
 
