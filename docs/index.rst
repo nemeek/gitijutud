@@ -18,6 +18,7 @@ Gitijutud
   harud
   mestimine
   kahveldamine
+  glossary
   lisa
 
 
