@@ -9,6 +9,10 @@ Uue projekti algus
 
 ``git init``
 
+.. sidebar:: Giti installeerimine
+
+	     Linuxis ja Macis on git vaikimisi installeeritud.
+
 
 Kloonimine
 ++++++++++
