@@ -21,6 +21,8 @@ Uue projekti algus
 Kloonimine
 ++++++++++
 
-``git clone``
+Kloonimine on protsess, kus tehakse serveris olevast varamust koopia oma arvutisse. Nüüd on võimalik projekti igati uurida omas arvutis, teha muutusi ja vaadata, mis juhtub. See, kas tehtud muutusi on võimalik ka üles laadida, ja kui, siis mis tingimustel, oleneb sellest, kuidas projekti omanik on määranud.
+
+Kloonimiseks kasutatakse käsku ``git clone <varamu aadress>``.
 
 
