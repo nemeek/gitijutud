@@ -25,13 +25,19 @@ Kloonimine on protsess, kus tehakse serveris olevast varamust koopia oma arvutis
 
 Kloonimiseks kasutatakse käsku ``git clone <varamu aadress>``.
 
-Selle projekti aadressiks on https://github.com/nemeek/gitijutud. Minnes antud aadressile võib näha umbes sellist pilti:
+Selle projekti aadressiks on https://github.com/nemeek/gitijutudč. Minnes antud aadressile võib näha umbes sellist pilti:
 
 .. figure:: _static/Screenshot_2025-11-01_at_23.27.25.png
 
 	    ``Code`` nupule vajutades avaneb kloonimise aadress.
 
-	    
-	   
+.. figure:: _static/Screenshot_2025-11-01_at_23.36.45.png
 
+	    Avanenud on aadress.
+
+Kokku tuleb siis käsk järgmine::
+
+  git clone https://github.com/nemeek/gitijutud
+
+  
 
