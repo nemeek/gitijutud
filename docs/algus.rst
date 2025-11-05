@@ -31,7 +31,7 @@ Selle projekti aadressiks on https://github.com/nemeek/gitijutudč. Minnes antud
 
 	    ``Code`` nupule vajutades avaneb kloonimise aadress.
 
-.. figure:: _static/Screenshot_2025-11-01_at_23.27.12.png
+.. figure:: _static/Screenshot_2025-11-01_at_23.36.45.png
 
 	    Avanenud on aadress.
 
