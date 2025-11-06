@@ -1,18 +1,19 @@
 Sõnastik
 ========
 
+Mis värk on? Proovime selles failis :term:`lava`
+
 .. glossary::
-   :sorted:
 
-      lava
-          (ingl. k. *stage*)
+   lava
+      (ingl. k. *stage*)
 
-      varamu
-          (ingl. k. *repository*)
+   varamu
+      (ingl. k. *repository*)
 
-      haru
-          (ingl. k. *branch*)
+   haru
+      (ingl. k. *branch*)
 
-kahveldamine
-    (ingl. k. *forking*)
+   kahveldamine
+      (ingl. k. *forking*)
     
