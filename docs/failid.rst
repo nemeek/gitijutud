@@ -11,11 +11,11 @@ Kohalikus arvutis võivad failid olla kolmes erinevas staadiumis:
 	"nulltasemeks". Failid lisatakse lavale käsuga ``git add <failinimi>``.
 
 **lava** (*stage*)
-	siin on failid valmis liikuma edasi :term:`varamusse<varamu>`. Lava võib käsitleda ka kohana, kust on võimalik saada kätte 
+	siin on failid valmis liikuma edasi :term:`varamusse<varamu>` . Lava võib käsitleda ka kohana, kust on võimalik saada kätte 
 	failide varasemat seisu (hetketõmmiseid). Failid lisatakse kohalikku repositooriumisse käsuga ``git commit -m 'kommentaar'``.
 
 **kohalik repo** (*local repository*)
-       siin on failid kohalikus repositooriumis, valmis saatmiseks teistele kasutajatele. Kaugesse repositooriumi saadetakse failid käsuga ``git push``.
+       siin on failid kohalikus :term:`varamus<varamu>` , valmis saatmiseks teistele kasutajatele. Serverisse saadetakse failid käsuga ``git push``.
    
 
 .. graphviz::
