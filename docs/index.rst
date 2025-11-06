@@ -19,6 +19,7 @@ Gitijutud
   mestimine
   kahveldamine
   glossary
+  example
   kkk
   lisa
 
