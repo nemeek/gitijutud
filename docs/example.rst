@@ -26,3 +26,24 @@ Teeme kausta tühja faili nimega `README.md`::
   tatikas % touch README.md
 
 Nüüd on kaustas `tatikas` üks tühi fail nimega `README.md`.
+Lisame sellele failile pisut sisu::
+
+  tatikas % echo "# Tatikas" > README.md
+
+Vaatame, mis selles failis on::
+
+  tatikas % cat README.md
+  # Tatikas
+
+Lisame failile veel sisu::
+
+  tatikas % echo -e "\nJaan Tatika elu ja võitlus."
+
+Vaatame, mis selles failis nüüd on::
+
+  tatikas % cat README.md 
+  # Tatikas
+
+  Jaan Tatika elu ja võitlus.
+
+Nüüd on kohalikus kaustas üks fail ja selles failis on kaks rida teksti, mis on eraldatud ühe tühja reaga.
