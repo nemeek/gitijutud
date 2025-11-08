@@ -53,3 +53,7 @@ Nüüd loome uue tühja faili nimega `elulugu.rst`::
   tatikas % touch elulugu.rst
 
 ja redigeerime seda sobiva tekstitoimetiga. lisades sinna järgmise lõigu
+
+   Kui Jaan Tatikas mitte üle maailma kuulsaks ei ole saanud, siis ei ole see tema laisa tahtmise süü. Tema on selle tarwis sala soowisid salwede kaupa, palawat higi pangede kaupa ära kulutanud. Ta sündis oma esimesel elupäewal ja ilmutas kohe kindlat nõuu, kuulsaks meheks saada, sest temal oli pahema käe küljes paljalt neli sõrme.
+
+Kas see tekst on nüüd failis `elulugu.rst` olemas?
