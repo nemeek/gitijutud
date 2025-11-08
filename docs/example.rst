@@ -47,3 +47,9 @@ Vaatame, mis selles failis nüüd on::
   Jaan Tatika elu ja võitlus.
 
 Nüüd on kohalikus kaustas üks fail ja selles failis on kaks rida teksti, mis on eraldatud ühe tühja reaga.
+
+Nüüd loome uue tühja faili nimega `elulugu.rst`::
+
+  tatikas % touch elulugu.rst
+
+ja redigeerime seda sobiva tekstitoimetiga. lisades sinna järgmise lõigu
