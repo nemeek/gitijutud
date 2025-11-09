@@ -58,6 +58,9 @@ ja redigeerime seda sobiva tekstitoimetiga. lisades sinna järgmise lõigu
 
 See tekst on nüüd failis `elulugu.rst`.
 
+Init
+++++
+
 Nüüd loome olemasolevasse kausta uue repositooriumi::
 
   tatikas$ git init
@@ -88,3 +91,19 @@ Nüüd on uus varamu loodud, see on kohalikus masinas. Vaatame, mida ütleb uue 
   nothing added to commit but untracked files present (use "git add" to track)
 
 See tähendab, et varamu on loodud, haru on `master`, kuid midagi pole veel ei lisatud ega :term:`kinnitatud<kinnitama>` .
+
+Gitignore
++++++++++
+
+Enne kui "päris" faile hakkame lisama, teeme veel ühe väikese asja ära.
+Praegu on näha, et failist `elulugu.rst` on nagu kaks versiooni, teine neist lõppeb tildega (`~`). See on varufail, tagavara, mida võib ju vaja minna, aga mis ei peaks jõudma versioneerimisse.
+
+Selleks et märkida failimustreid, mis ei peakski versioneerimisse minema,
+pannakse nad faili, mille nimi on `.gitignore`. Antud juhul siis nii::
+
+  tatikas % touch '.gitignore'
+  tatikas % echo '*.~' > .gitignore
+  tatikas % cat .gitignore
+  *~
+
+See varjab giti käskude eest failid, mis lõppevad tildega.
