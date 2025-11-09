@@ -106,4 +106,17 @@ pannakse nad faili, mille nimi on `.gitignore`. Antud juhul siis nii::
   tatikas % cat .gitignore
   *~
 
-See varjab giti käskude eest failid, mis lõppevad tildega.
+See varjab giti käskude eest failid, mis lõppevad tildega. Kui nüüd uuesti vaadata staatust, siis näeb see välja nii::
+
+  tatikas % git status
+  On branch master
+  Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        elulugu.rst
+
+  nothing added to commit but untracked files present (use "git add" to track)
+
+Näeme, et tildega fail ei ilmu ka staatuseraportisse.
+
+
