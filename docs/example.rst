@@ -120,3 +120,23 @@ See varjab giti käskude eest failid, mis lõppevad tildega. Kui nüüd uuesti v
 Näeme, et tildega fail ei ilmu ka staatuseraportisse.
 
 
+Failide lisamine ja kinnitamine
++++++++++++++++++++++++++++++++
+
+Lisame esiteks `README.md` faili ja vaatame staatust::
+
+  tatikas % git add README.md 
+  tatikas % git status
+  On branch master
+  Changes to be committed:
+     (use "git restore --staged <file>..." to unstage)
+        new file:   README.md
+
+  Untracked files:
+     (use "git add <file>..." to include in what will be committed)
+        elulugu.rst
+
+Giti raamatupidamisse on lisandunud fail `README.md`, see on valmis kinnitamiseks. Faili `elulugu.rst` pole me veel lisanud, see on endiselt mittejälitatava staatuses.
+
+
+
