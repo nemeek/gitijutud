@@ -72,5 +72,19 @@ Nüüd loome olemasolevasse kausta uue repositooriumi::
   hint: 
   hint:   git branch -m <name>
 
-Nüüd on uus varamu loodud, see on kohalikus masinas.
+Nüüd on uus varamu loodud, see on kohalikus masinas. Vaatame, mida ütleb uue varamu kohta `git status`::
 
+  tatikas$ git status
+  On branch master
+
+  No commits yet
+
+  Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        elulugu.rst
+        elulugu.rst~
+
+  nothing added to commit but untracked files present (use "git add" to track)
+
+See tähendab, et varamu on loodud, haru on `master`, kuid midagi pole veel ei lisatud ega :term:`kinnitatud<kinnitama>` .
