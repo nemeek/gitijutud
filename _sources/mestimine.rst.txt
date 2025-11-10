@@ -1,0 +1,5 @@
+Mestimine
+=========
+
+``git merge``
+

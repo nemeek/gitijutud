@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="et" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kus mu failid on? &mdash; Gitijutud  dokumentatsioon</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=cf9ce7cd"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=f05b935c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Indeks" href="genindex.html" />
+    <link rel="search" title="Otsing" href="search.html" />
+    <link rel="next" title="Käsud" href="kasud.html" />
+    <link rel="prev" title="Algus" href="algus.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Gitijutud
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Otsi dokumente" aria-label="Otsi dokumente" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Sisukord:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="sissejuhatus.html">Sissejuhatus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="algus.html">Algus</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Kus mu failid on?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kasud.html">Käsud</a></li>
+<li class="toctree-l1"><a class="reference internal" href="harud.html">Harud</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mestimine.html">Mestimine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kahveldamine.html">Kahveldamine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Sõnastik</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Näide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kkk.html">KKK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lisa.html">Loe ja vaata lisa</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Gitijutud</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Kus mu failid on?</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/failid.rst.txt" rel="nofollow"> Vaata lehe lähtekoodi</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="kus-mu-failid-on">
+<h1>Kus mu failid on?<a class="headerlink" href="#kus-mu-failid-on" title="Link to this heading"></a></h1>
+<p>Gitil on 4 „tsooni“ kus asuvad falid erinevatel etappidel.</p>
+<p>Giti enda tööks ei ole vaja kaugrepositooriumit, töötab ka kohalikus arvutis.
+Kohalikus arvutis võivad failid olla kolmes erinevas staadiumis:</p>
+<dl class="simple">
+<dt><strong>kohalik töökaust</strong> (<em>local working directory</em>)</dt><dd><p>siin toimub kogu arendustegevus, kaustas võib olla ka faile, mis gitti ei lähe. Seda võib pidada Giti suhtes ka
+„nulltasemeks“. Failid lisatakse lavale käsuga <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;failinimi&gt;</span></code>.</p>
+</dd>
+<dt><strong>lava</strong> (<em>stage</em>)</dt><dd><p>siin on failid valmis liikuma edasi <a class="reference internal" href="glossary.html#term-varamu"><span class="xref std std-term">varamusse</span></a> . Lava võib käsitleda ka kohana, kust on võimalik saada kätte
+failide varasemat seisu (hetketõmmiseid). Failid lisatakse kohalikku repositooriumisse käsuga <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">'kommentaar'</span></code>.</p>
+</dd>
+<dt><strong>kohalik repo</strong> (<em>local repository</em>)</dt><dd><p>siin on failid kohalikus <a class="reference internal" href="glossary.html#term-varamu"><span class="xref std std-term">varamus</span></a> , valmis saatmiseks teistele kasutajatele. Serverisse saadetakse failid käsuga <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code>.</p>
+</dd>
+</dl>
+<div class="graphviz"><img src="_images/graphviz-acc150f72ec670867035fac42255ed60648c7cbd.png" alt="digraph git {
+   rankdir=LR;
+   subgraph cluster_local {
+      label=&quot;Kohalik&quot;;
+      &quot;kohalik töökaust&quot; [shape=folder];
+      &quot;lava&quot;;
+      &quot;kohalik repo&quot; [shape=cylinder];
+   }
+
+   subgraph cluster_remote {
+      label=&quot;kauge&quot;;
+      &quot;kauge repo&quot; [shape=cylinder];
+   }
+
+   &quot;kauge repo&quot; -&gt; &quot;kohalik repo&quot; [label=&quot;git clone&quot;];
+   &quot;kohalik repo&quot; -&gt; &quot;kauge repo&quot; [label=&quot;git push&quot;];
+   &quot;lava&quot; -&gt; &quot;kohalik repo&quot; [label=&quot;git commit&quot;];
+   &quot;kohalik töökaust&quot; -&gt;  &quot;lava&quot;  [label=&quot;git add&quot;];
+   &quot;kohalik repo&quot; -&gt; &quot;kohalik töökaust&quot; [label=&quot;git checkout&quot;];
+}" class="graphviz" /></div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Jalus">
+        <a href="algus.html" class="btn btn-neutral float-left" title="Algus" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Eelmine</a>
+        <a href="kasud.html" class="btn btn-neutral float-right" title="Käsud" accesskey="n" rel="next">Järgmine <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Autoriõigus 2025, Neeme Kahusk.</p>
+  </div>
+
+  Ehitatud <a href="https://www.sphinx-doc.org/">Sphinx</a>'iga,
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">kujundusteema</a>
+    on loonud <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
