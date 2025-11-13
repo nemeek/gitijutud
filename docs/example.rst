@@ -144,3 +144,20 @@ Varamu loomine Githubis
 
 Olgu meil arendaja nimega Salomon Wesipruul, kes tahab teha uut projekti.
 Ta on otsustanud alustada sellest, et loob konto Githubi ja teeb sinna uue varamu.
+
+Githubi sisse logimine
+++++++++++++++++++++++
+
+Kui Githubis kontot ei ole, siis tuleb see luua.
+
+
+.. figure:: _static/github-yldine.png
+
+	    Githubi avaaken
+
+.. figure:: _static/github-sisselogimenyy.png
+
+	    Githubi sisselogimismenüü
+
+.. figure:: _static/create-repository.png	    
+
