@@ -139,4 +139,8 @@ Lisame esiteks `README.md` faili ja vaatame staatust::
 Giti raamatupidamisse on lisandunud fail `README.md`, see on valmis kinnitamiseks. Faili `elulugu.rst` pole me veel lisanud, see on endiselt mittejälitatava staatuses.
 
 
+Varamu loomine Githubis
++++++++++++++++++++++++
 
+Olgu meil arendaja nimega Salomon Wesipruul, kes tahab teha uut projekti.
+Ta on otsustanud alustada sellest, et loob konto Githubi ja teeb sinna uue varamu.
